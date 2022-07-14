@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Green Bank</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css.map">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="container pt-4 bg-success">
+    <header class="row">
+        <section class="col">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <div class="row align-middle">
+
+                        <div class="col-1">
+
+                            <img src="/img/user.png" class="w-50 rounded-circle img-thumbnail" alt="user" />
+
+                        </div>
+
+                        <div class="col ">
+
+                            <h1>Green Bank</h1>
+
+                        </div>
+                        <div class="col-3 text-right">
+                            <a href="/index.html" class="btn btn-outline-primary btn-sm me-2">Início</a>
+                            <a href="/login.html" class="btn btn-primary btn-sm me-2">Login</a>
+                            <a href="/cadastro.html" class="btn btn-outline-primary btn-sm me-2">Cadastro</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </header>
+    <main class="row mt-2">
+        <section class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Login</h1>
+                </div>
+                <div class="card-body">
+                    <section class="row">
+                        <div class="col">
+                            <div class="card">
+                               <form action="/saldo.html" method="get">
+                                    <div class="card-body">
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Agência"
+                                                    aria-label="Agência">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Conta"
+                                                    aria-label="Conta">
+                                            </div>
+                                        </div>
+                                        <div class="row g-3 align-items-center">
+                                            <div class="col-auto">
+                                                <label for="inputPassword6" class="col-form-label">Senha</label>
+                                            </div>
+                                            <div class="col-auto">
+                                                <input type="password" id="inputPassword6" class="form-control"
+                                                    aria-describedby="passwordHelpInline" required>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span id="passwordHelpInline" class="form-text">
+                                                    Deve conter de 8 a 20 caracteres.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Conta" id="contapj">
+                                            <label class="form-check-label" for="contapj">
+                                                Conta PJ
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Conta" id="contapf" checked>
+                                            <label class="form-check-label" for="contapf">
+                                                Conta PF
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="reset" class="btn btn-outline-primary">Limpar</button>
+                                            <button type="submit" class="btn btn-primary">entrar</button>
+                                        </div>
+                                    </div>
+                               </form>
+                            </div>
+
+
+                        </div>
+                    </section>
+                </div>
+                <div class="card-footer">
+                    <footer></footer>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.js.map"></script>
+</body>
+
+</html>
